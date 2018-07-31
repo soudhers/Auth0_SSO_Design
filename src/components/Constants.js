@@ -1,0 +1,10 @@
+export const EASY = 0;
+export const MODERATE = 1;
+export const DIFFICULT = 2;
+export const NEW = 0;
+export const CLK = 1;
+export const DOM = 2;
+export const END = 3;
+export const MINE_COUNT = [10, 20, 30];
+export const IMAGES = ["none","one","two","three","four","five","six","seven","eight"];
+export const FACES = ["confused","smiley","sad","cool"];

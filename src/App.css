@@ -1,0 +1,177 @@
+body {
+  min-width: 700px;
+  min-height: 700px;
+  background-color: #222;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.minesweeper {
+  margin: 20px;
+  background-color: #222;
+}
+
+.controls {
+  display:flex;
+  width:80%;
+  margin:auto;
+  background-color: lightseagreen;
+}
+
+.flagcount {
+  margin: auto;
+  padding: 10px;
+  flex-basis: 33.33%;
+}
+
+.flagcount img {
+  display: block;
+  margin: auto;
+}
+
+.flagcount span {
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+.gamereset {
+  margin: auto;
+}
+
+.board {
+  background-color: lightgreen;
+  margin: auto;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cell.showmine{
+  background:  url('./images/mine.ico') no-repeat center;
+  background-size: 90%;
+  border-style: inset;
+  background-color: red;
+}
+
+.cell.shownumber{
+  background-size: 90%;
+  border-style: inset;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cell.shownumber.one{
+  background-image: url('./images/1.svg');
+}
+
+.cell.shownumber.two{
+  background-image: url('./images/2.svg');
+}
+
+.cell.shownumber.three{
+  background-image: url('./images/3.svg');
+}
+
+.cell.shownumber.four{
+  background-image: url('./images/4.svg');
+}
+
+.cell.shownumber.five{
+  background-image: url('./images/5.svg');
+}
+
+.cell.shownumber.six{
+  background-image: url('./images/6.svg');
+}
+
+.cell.shownumber.seven{
+  background-image: url('./images/7.svg');
+}
+
+.cell.shownumber.eight{
+  background-image: url('./images/8.svg');
+}
+
+.cell.showflag{
+  background: url('./images/icn_flag_01.png') no-repeat center;
+  border-style: outset;
+  background-color: whitesmoke;
+}
+
+.timer {
+  padding: 5px;
+  margin: auto;
+  flex-basis: 33.33%;
+}
+
+.timer img {
+  display: block;
+  margin: auto;
+}
+
+.timer span {
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+.gamereset {
+  cursor: pointer;
+  flex-basis: 33.33%;
+}
+
+.gamereset .confused {
+  src: './images/confused.png';
+}
+
+.gamereset .sad {
+  src: url('./images/sad.png') no-repeat center;
+}
+
+.gamereset .cool {
+  src: url('./images/cool.png') no-repeat center;
+}
+
+.gamereset .smiley {
+  src: url('./images/smiley.png') no-repeat center;
+}
