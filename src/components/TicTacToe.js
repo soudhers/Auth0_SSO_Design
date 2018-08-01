@@ -1,3 +1,3 @@
 import React from 'react';
-const TicTacToe = () => (<h1 style={{color: "white"}}>TicTacToe Module</h1>);
+const TicTacToe = () => (<h3 style={{color: "lightgreen"}}><b>Tic-Tac-Toe game...</b></h3>);
 export default TicTacToe;

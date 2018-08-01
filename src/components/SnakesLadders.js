@@ -1,3 +1,5 @@
 import React from 'react';
-const SnakesLadder = () => (<h1 style={{color: "white"}}>SnakesLadder Module</h1>);
+const SnakesLadder = () => (
+    <h3 style={{color: "lightgreen"}}><b>Snakes and ladder game...</b></h3>
+);
 export default SnakesLadder;
